@@ -21,7 +21,7 @@ For that use the following code snippet (each word should begin with a new line)
 
     public class PrintWordsApp {
         public static void main(String[] args) {
-            //write your code here
+            System.out.println("java\n is \n smth");
         }
     }
 
@@ -33,6 +33,9 @@ This is my first Java program
 For that use the following code snippet (each word should begin with a new line):
 
     public class PrintSentenceApp {
+    public static void main(String[] args) {
+            System.out.println("This is my first Java program");
+        }
     }
 
 
@@ -41,7 +44,7 @@ Given piece of code (not compiling one), fill everything that is missing for the
 Do that inside of a code snippet here (each word should begin with a new line):
 
     public class BrokenApp {
-        public main(String args) {
+        public static void main(String[] args) {
             System.out,println("fixMe)
         }
     }
@@ -54,6 +57,6 @@ The code to be updated is inside of a code snippet (each word should begin with 
 
     public class UpdatedApp {
         public static void main(String[] args) {
-            System.out.println("fixMe");
+            System.out.println("I'm \n updated \n");
         }
     }
